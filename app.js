@@ -523,7 +523,6 @@
      where scroll + variant live, and it pauses when offscreen. */
   let scrollProgress = 0;
   let bgRendered = false;
-  let heroRendered = false;
   let rafQueued = false;
   function tick() {
     rafQueued = false;
